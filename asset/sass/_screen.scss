@@ -1,9 +1,21 @@
+@font-face {
+    font-family: "CartaNova";
+    src: url('../fonts/CartaNovaTexte-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CartaNova";
+    font-style: italic;
+    src: url('../fonts/CartaNovaTexte-Italic.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
 }
 
 html {
-    font: #{$base-font-size}/#{$base-line-height} "Crimson Text", serif;
+    font: #{$base-font-size}/#{$base-line-height} "CartaNova", serif;
     color: #676767;
 }
 
@@ -353,7 +365,7 @@ header a {
 }
 
 .site-title img {
-    max-height: (3 * $spacing-l);
+    max-height: (5 * $spacing-l);
     max-width: 100%;
 }
 
